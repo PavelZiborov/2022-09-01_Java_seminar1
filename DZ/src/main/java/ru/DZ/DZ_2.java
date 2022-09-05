@@ -6,7 +6,7 @@ public class DZ_2 {
 //        среди массива строк. Если общего префикса нет, то возвращать пустую строку.
 //        Пример ["aabb", "aabbb", "aaabb"] - ответ "aa"
 
-        String[] stringArray = {"giorgi", "gio", "gior", "giorg", "gior"};
+        String[] stringArray = {"aabb", "aabbb", "aaabb"};
         String result = longestCommonPrefix(stringArray);
         System.out.println(result);
     }
